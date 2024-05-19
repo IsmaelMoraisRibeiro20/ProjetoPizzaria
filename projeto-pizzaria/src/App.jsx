@@ -2,12 +2,13 @@ import { BrowserRouter as Router, Routes, Route, useLocation} from 'react-router
 import NavBar from "./components/layout/NavBar"
 
 import Contato from './components/pages/Contato';
-import Pedido from './components/pages/Pedido';
+import Inicio from './components/pages/Inicio';
 import Localizacao from './components/pages/Localizacao';
 import Cardapio from './components/pages/Cardapio';
+import Pedido from './components/pages/Pedido';
 
 
-import Section from './components/layout/Section';
+
 
 
 function App() {
@@ -17,14 +18,12 @@ function App() {
     <Router>
       <NavBar/>
       
-      <Section/>
-      
-      
       <Routes>
         <Route path='/' exact Component={Contato}/>
-        <Route path='/pedido' Component={Pedido}/>
+        <Route path='/inicio' Component={Inicio}/>
         <Route path='/localizacao' Component={Localizacao}/>
         <Route path='/cardapio' Component={Cardapio}/>
+        <Route path='/pedido' Component={Pedido}/>
        
       </Routes>
 

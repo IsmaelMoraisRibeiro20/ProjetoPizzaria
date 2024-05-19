@@ -1,0 +1,239 @@
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    background-color: #BE5B00; 
+    padding: 1% 10%;
+    overflow: auto;
+    position: relative;
+    padding: 3% 12%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 10fr));
+    
+   
+}
+
+.pizza{
+    border-radius: 18px;
+    background-color: #D9D9D9;
+    height: 190px;
+    width: 180px;
+    margin: 3% 2%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.logopizzaFrango img{
+    width: 70%;
+    margin: 8% 16%;
+}
+.container p{
+    text-align: center;
+    padding-top: 8%;
+    font-size: 12px;
+}
+
+.buttons{
+    display: flex;
+    
+}
+
+.container button{
+    position: absolute;
+    width: 79px;
+    height: 34px;
+    font-size: 11px;
+    background-color: #BE5B00;
+    font-weight: 100;
+    margin: -10px 95px;
+}
+button:hover {
+    color: white;
+}
+select{
+    width: 45%;
+    height: 33px;
+    border-radius: 18px;
+    font-size: 11px;
+    background-color: #BE5B00;
+    font-weight: 100; 
+    border: none;
+    margin: -5% 4%;
+    padding: 0 3%;
+    cursor: pointer;
+   
+}
+
+/*PIZZA CALABRESA*/
+.pizzaCalabresa  img{
+    width: 43%;
+    margin: 12% 27%;
+}
+
+.selectTamanhoPizzaCalabresa{
+    margin: -4.5% 5%;
+}
+
+.buttonTamanhoPizzaCalabresa{
+    
+    margin: 5px 95px;
+}
+
+
+/*PIZZA DOCE*/
+.pizzaChocolate img{
+    width: 43%;
+    margin: 9% 27%;
+}
+
+
+/*PIZZA PORTUGEUSA, PIZZA MUSSARELA*/
+.logopizzaPortuguesa img, .pizzaMussarela img {
+    width: 43%;
+    margin: 8.5% 27%;
+}
+
+
+/*PIZZA NAPOLITANO*/
+
+.pizzaNapolitano img {
+    width: 70%;
+    margin: 8.5% 15%;
+}
+
+
+/*PIZAA QUATRO QUEIJO*/
+
+.logopizzaquatroQuejo img{
+    width: 43%;
+    margin: 10.1% 27%;
+}
+
+
+/*PIZZA ROMEU E JULIETA, PIZZA BAILARINA*/
+
+.pizzaRomeuJulieta img, .pizzaItaliana img{
+    width: 43%;
+    margin: 9.3% 27%;
+}
+
+/*PIZAA MARGUERITA*/
+
+.pizzaMarguerita img{
+    width: 43%;
+    margin: 8.8% 27%;
+}
+
+
+
+@media (max-width:1241px){
+    .container{
+       
+       padding: 2% 15%;
+        
+       
+    }
+    .pizza{
+        margin: 3% 16%;
+    }
+    
+}
+
+@media (max-width:1100px){
+    .container{
+        padding: 2% 12%;
+    }
+
+    .pizza{
+        margin: 3% 8%;
+    }
+    
+}
+
+@media (max-width:990px){
+    .container{
+      padding: 2% 10%;
+    }
+
+    .pizza{
+        margin: 3% 1%;
+    }
+   
+    
+}
+
+@media (max-width:953px){
+    .container{
+      padding: 2% 15%;
+    }
+
+    .pizza{
+        margin: 3% 8%;
+    }
+   
+    
+}
+
+@media (max-width:812px){
+    .container{
+      padding: 2% 18%;
+    }
+
+    .pizza{
+        margin: 3% 16%;
+    }
+   
+    
+}
+
+@media (max-width:619px){
+    .container{
+      padding: 2% 14%;
+    }
+
+    .pizza{
+        margin: 3% 10%;
+    }
+   
+    
+}
+
+@media (max-width:529px){
+    .container{
+      padding: 2% 9%;
+    }
+
+    .pizza{
+        margin: 3% 10%;
+    }
+   
+    
+}
+
+@media (max-width:470px){
+    .container{
+      padding: 2% 4%;
+    }
+
+    .pizza{
+        margin: 3% 5%;
+    }
+   
+    
+}
+
+@media (max-width:416px){
+    .container{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .pizza{
+        margin: 3% 27%;
+    }
+   
+    
+}

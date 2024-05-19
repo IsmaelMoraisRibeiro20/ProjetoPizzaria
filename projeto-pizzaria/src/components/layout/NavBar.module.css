@@ -8,7 +8,7 @@ header{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    margin: 3% 5%;
+    margin: 2% 5%;
     align-items: center;
 }
 
@@ -96,7 +96,7 @@ a{
 }
 
 
-@media screen and (max-width: 532px) {
+@media screen and (max-width: 554px) {
     header {
         display: flex;
         flex-wrap: wrap;
@@ -106,8 +106,8 @@ a{
         width: 45%;
     }
     h1 {
-        margin-left: 3%;
-        font-size: 22px;
+        margin-left: 8%;
+        font-size: 18px;
     }
     li{
         padding: 0 3%;
@@ -130,12 +130,31 @@ a{
         width: 43%;
     }
     h1 {
-        margin-left: -4%;
-        font-size: 20px;
+        margin-left: 8%;
+        font-size: 18px;
     }
     li{
         padding: 0 2.5%;
-        font-size: 11.5px;
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 379px) {
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 1% 2%;
+    }
+    .w50{
+        width: 40%;
+    }
+    h1 {
+        margin-left: 8%;
+        font-size: 18px;
+    }
+    li{
+        padding: 0 2.5%;
+        font-size: 9px;
     }
 
     

@@ -12,12 +12,14 @@ function NavBar(){
 
             <div className={styles.w50}>
                 <ul>
+
+                    <li>
+                        <Link to='/inicio' >INICIO</Link>
+                    </li>
                     <li>
                         <Link to='/'>CONTATO</Link>
                     </li>
-                    <li>
-                    <Link to='/pedido' >PEDIDO</Link>
-                    </li>
+                    
                     <li>
                         <Link to='/cardapio'>CARDAPIO</Link>
                     </li>
