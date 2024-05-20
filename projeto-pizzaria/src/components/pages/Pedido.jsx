@@ -10,12 +10,13 @@ import LogoPizzaQuatroQueijo from '../../../img/pizza_quatroQueijo.png'
 import LogoPizzaRomeuJulieta from '../../../img/romeu-julieta.png'
 import LogoPizzaItaliana from '../../../img/pizza-italianapng.webp'
 import LogoPizzaMarguerita from '../../../img/pizza-italianapng.webp'
+import { Link } from 'react-router-dom'
 
 
 
 function Pedido(){
     return (
-        <div className={styles.container}>
+        <div className={styles.containerPai}>
 
             <div className={styles.pizza}>
                 <p>PIZZA FRANGO CATUPIRY</p>
@@ -30,7 +31,9 @@ function Pedido(){
                         <option>Media</option>
                         <option>Pequena</option>
                     </select>
-                    <button>AVANÇAR</button>
+                    <div className={styles.butaoPedido}>
+                        <Link to='/finalizarPedido'><button>AVANÇAR</button></Link>
+                    </div>
                 </div>
                 
             </div>
@@ -49,7 +52,7 @@ function Pedido(){
                         <option>Media</option>
                         <option>Pequena</option>
                     </select>
-                    <button className={styles.buttonTamanhoPizzaCalabresa}>AVANÇAR</button>
+                    <Link><button >AVANÇAR</button></Link>
                 </div>
                 
             </div>
@@ -68,7 +71,7 @@ function Pedido(){
                         <option>Media</option>
                         <option>Pequena</option>
                     </select>
-                    <button className={styles.buttonTamanhoPizzaCalabresa}>AVANÇAR</button>
+                    <Link><button >AVANÇAR</button></Link>
                 </div>
             </div>
 
@@ -87,7 +90,7 @@ function Pedido(){
                         <option>Media</option>
                         <option>Pequena</option>
                     </select>
-                    <button>AVANÇAR</button>
+                    <Link><button >AVANÇAR</button></Link>
                 </div>
                 
             </div>
@@ -106,7 +109,7 @@ function Pedido(){
                         <option>Media</option>
                         <option>Pequena</option>
                     </select>
-                    <button className={styles.buttonTamanhoPizzaCalabresa}>AVANÇAR</button>
+                    <Link><button >AVANÇAR</button></Link>
                 </div>
                 
             </div>
@@ -125,7 +128,7 @@ function Pedido(){
                         <option>Media</option>
                         <option>Pequena</option>
                     </select>
-                    <button className={styles.buttonTamanhoPizzaCalabresa}>AVANÇAR</button>
+                    <Link><button >AVANÇAR</button></Link>
                 </div>
             </div>
 
@@ -144,7 +147,7 @@ function Pedido(){
                         <option>Media</option>
                         <option>Pequena</option>
                     </select>
-                    <button>AVANÇAR</button>
+                    <Link><button >AVANÇAR</button></Link>
                 </div>
                 
             </div>
@@ -163,7 +166,7 @@ function Pedido(){
                         <option>Media</option>
                         <option>Pequena</option>
                     </select>
-                    <button className={styles.buttonTamanhoPizzaCalabresa}>AVANÇAR</button>
+                    <Link><button >AVANÇAR</button></Link>
                 </div>
                 
             </div>
@@ -182,7 +185,7 @@ function Pedido(){
                         <option>Media</option>
                         <option>Pequena</option>
                     </select>
-                    <button className={styles.buttonTamanhoPizzaCalabresa}>AVANÇAR</button>
+                    <Link><button >AVANÇAR</button></Link>
                 </div>
             </div>
 
@@ -200,7 +203,7 @@ function Pedido(){
                         <option>Media</option>
                         <option>Pequena</option>
                     </select>
-                    <button className={styles.buttonTamanhoPizzaCalabresa}>AVANÇAR</button>
+                    <Link><button >AVANÇAR</button></Link>
                 </div>
                 
             </div>

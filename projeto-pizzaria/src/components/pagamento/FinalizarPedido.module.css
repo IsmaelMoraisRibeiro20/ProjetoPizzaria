@@ -1,0 +1,130 @@
+.container{
+    max-width: 1280px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #BE5B00;
+    width: 100%;
+    padding-left: 5%;
+}
+
+
+.logo img{
+    width: 390px;
+    height: 395px;
+    margin:  4% 30%;
+    border-radius: 10px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    margin:  1% 10%;
+}
+.container input{
+    display: flex;
+    width: 434px;
+    height: 30px;
+    border-radius: 12px;
+    border: none;
+    padding-left: 10px;
+    margin-left: 15%;
+}
+
+
+label{
+    font-weight: 100;
+    margin-left:15% ;
+}
+
+
+.enderecos {
+    display: flex;
+    margin-left: 8%;
+   
+    
+}
+
+.rua input{
+    width: 200px;
+    
+}
+
+.referencias input{
+    width: 200px;
+    
+}
+.referencias{
+    margin-left: 8%;
+}
+
+
+/*Radio button*/
+.formaPagamento{
+    display: flex;
+}
+
+
+.numeroCasa input{
+    width: 200px;
+}
+
+.numeroCasa {
+    margin: -5.6% 28%;
+}
+
+p{
+    font-weight: 100;
+    margin: 1% 15%;
+}
+
+
+.labelDinheiro{
+    display: flex;
+    margin-left: 3.1em;
+}
+
+.labelPix {
+    display: flex;
+    margin-left: 3.4em;
+    width: 52px;
+    
+}
+
+
+.radioInput input{
+    cursor: pointer;
+    width: 40px;
+    accent-color: #BE5B00;
+}
+
+
+
+
+h4{
+    font-weight: 100;
+    margin-left: 5%;
+}
+
+
+.buttonsVoltarConfirmar{
+    display: flex;
+    margin: 4% 15%;
+}
+
+button{
+    cursor: pointer;
+    align-items: center;
+    width: 200px;
+    border-radius: 18px;
+    border: none;
+    height: 35px;
+}
+
+.buttonConfirma {
+    margin-left: 17%;
+}
+
+
+button:hover{
+    color: #BE5B00;
+}

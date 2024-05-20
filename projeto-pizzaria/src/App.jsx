@@ -7,9 +7,7 @@ import Localizacao from './components/pages/Localizacao';
 import Cardapio from './components/pages/Cardapio';
 import Pedido from './components/pages/Pedido';
 
-
-
-
+import FinalizaPedido from './components/pagamento/FinalizaPedido'
 
 function App() {
   
@@ -24,6 +22,8 @@ function App() {
         <Route path='/localizacao' Component={Localizacao}/>
         <Route path='/cardapio' Component={Cardapio}/>
         <Route path='/pedido' Component={Pedido}/>
+
+        <Route path='/finalizarPedido' Component={FinalizaPedido}/>
        
       </Routes>
 

@@ -1,6 +1,6 @@
 
 
-.container{
+.containerPai{
     display: flex;
     flex-wrap: wrap;
     height: 100%;
@@ -17,7 +17,7 @@
 }
 
 .pizza{
-    border-radius: 18px;
+    border-radius: 10px;
     background-color: #D9D9D9;
     height: 190px;
     width: 180px;
@@ -28,9 +28,9 @@
 
 .logopizzaFrango img{
     width: 70%;
-    margin: 8% 16%;
+    margin: 3.9% 16%;
 }
-.container p{
+.containerPai p{
     text-align: center;
     padding-top: 8%;
     font-size: 12px;
@@ -41,17 +41,19 @@
     
 }
 
-.container button{
+.containerPai button{
     position: absolute;
     width: 79px;
     height: 34px;
     font-size: 11px;
     background-color: #BE5B00;
     font-weight: 100;
-    margin: -10px 95px;
+    margin: -10px 0px;
+    border: none;
+    border-radius: 18px;
 }
-button:hover {
-    color: white;
+.containerPai button:hover {
+    color:  #ebebeb8b;
 }
 select{
     width: 45%;
@@ -74,12 +76,7 @@ select{
 }
 
 .selectTamanhoPizzaCalabresa{
-    margin: -4.5% 5%;
-}
-
-.buttonTamanhoPizzaCalabresa{
-    
-    margin: 5px 95px;
+    margin: -4.5% 4%;
 }
 
 

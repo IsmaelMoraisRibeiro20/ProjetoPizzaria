@@ -13,7 +13,7 @@ function Inicio(){
                         <h1>MELHOR PIZZA <br/>DA REGIÃO</h1>
                     </div>
                     <div className={styles.butao}>
-                        <Link to="/pedido"><Button text="FAZER PEDIDO" margin="2%  6%" /></Link>
+                        <Link to="/pedido"><button>FAZER PEDIDO</button></Link>
                         
                     </div>
                 </div>
